@@ -15,7 +15,7 @@ export default function AddEmployee(){
     const [salary, setSalary] = useState("0");
 
 
-    /*The function used to submit the data to the backend*/
+    /*The function used to submit the data to the backen*/
     function handleSubmit(e){
         e.preventDefault();
         const newEmployee = {
