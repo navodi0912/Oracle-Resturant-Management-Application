@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.single_item{
+    width: 90%;
+    height: auto;
+    /* background-color: red; */
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.image_name_desc_price{
+    display: flex;
+}
+
+.image_con{
+    height: 230px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.image_con .item_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cornerImg{
+    position: absolute;
+    width: 60px;
+}
+
+.cor1{
+    top: 0;
+    left: 0;
+}
+
+.cor2{
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+.name_desc{
+    width: 600px;
+    margin: 0 20px;
+}
+
+.pro_name{
+    color: rgb(182, 146, 95);
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+
+.pro_desc{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.price_con p{
+    color: rgb(182, 146, 95);
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+.portion_cart{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.portion_cart p{
+    color: rgb(182, 146, 95);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
+.portion_cart button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(182, 146, 95);
+}
+
+.portion_cart button.active{
+    color: white;
+    background-color: rgb(182, 146, 95);
+}
+
+@media screen and (max-width:800px){
+    .single_item{
+        height: auto;
+        width: 100%;
+    }
+    .image_name_desc_price{
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .name_desc{
+        width: 60%;
+        margin: 20px 0;
+    }
+}

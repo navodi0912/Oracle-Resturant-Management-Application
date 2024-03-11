@@ -1,0 +1,47 @@
+creating a slider for the elements
+
+import React, { useState } from "react";
+
+const Slider = ({ children }) => {
+  const [scrollX, setScrollX] = useState(0);
+
+  const handleLeftArrowClick = () => {
+    const container = document.getElementById("container");
+    const containerWidth = container.getBoundingClientRect().width;
+    const newScrollX = scrollX + containerWidth;
+    setScrollX(Math.min(newScrollX, 0));
+  };
+
+  const handleRightArrowClick = () => {
+    const container = document.getElementById("container");
+    const containerWidth = container.getBoundingClientRect().width;
+    const newScrollX = scrollX - containerWidth;
+    const contentWidth = container.scrollWidth;
+    setScrollX(Math.max(newScrollX, containerWidth - contentWidth));
+  };
+
+  return (
+    <div className="slider">
+      <div className="slider__arrow slider__arrow--left" onClick={handleLeftArrowClick}>
+        <i className="fas fa-chevron-left"></i>
+      </div>
+      <div className="slider__container" id="container" style={{ transform: `translateX(${scrollX}px)` }}>
+        {children}
+      </div>
+      <div className="slider__arrow slider__arrow--right" onClick={handleRightArrowClick}>
+        <i className="fas fa-chevron-right"></i>
+      </div>
+    </div>
+  );
+};
+
+export default Slider;
+
+
+--------- explaination ---------
+In this code, we create a functional component called Slider. It receives a prop called children, which represents the div elements that we want to display inside the slider.
+We use the useState hook to manage the scrollX state, which represents the horizontal position of the slider container. Initially, it's set to 0.
+The handleLeftArrowClick function is called when the user clicks on the left arrow. It calculates the new position of the slider container by adding the width of the container element to the current scrollX value. It then sets the new scrollX value using the setScrollX function. We also make sure that the new scrollX value is not greater than 0, which means we can't scroll beyond the left edge of the container.
+The handleRightArrowClick function is called when the user clicks on the right arrow. It calculates the new position of the slider container by subtracting the width of the container element from the current scrollX value. It then sets the new scrollX value using the setScrollX function. We also make sure that the new scrollX value is not smaller than the width of the container minus the width of the content, which means we can't scroll beyond the right edge of the container.
+The slider__arrow and slider__container classes are used to style the arrows and container, respectively. We use the transform CSS property to move the container horizontally based on the value of scrollX.
+Finally, we render the two arrow elements and the container element inside a wrapper element with the slider class. We pass the children prop to the container element, which contains the div elements that we want to display inside the slider.

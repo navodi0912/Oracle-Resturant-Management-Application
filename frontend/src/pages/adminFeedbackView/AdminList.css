@@ -1,0 +1,76 @@
+.adminFeedbackList{
+    display: flex;
+}
+.feedbacks{
+    flex: 1;
+    height: 100vh;
+    overflow: auto;
+}
+#AsearchBar {
+    margin-left: 850px;
+    border-color: rgb(182, 146, 95);
+    background-color: white;
+}
+
+#AsearchBtn {
+    margin-right: 12px;
+    color: black;
+    background-color:rgb(182, 146, 95) ;
+    border-color: white;
+}
+
+#AsearchBtn:hover{
+    color:rgb(182, 146, 95) ;
+    background-color:black;
+}
+
+#Fadminlist-container table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border-color:rgb(182, 146, 95) ;
+    
+}
+
+#Fadminlist-container table thead {
+    font-weight: 700;
+   
+}
+
+#Fadminlist-container table thead td {
+    background-color: rgb(182, 146, 95);
+    color: white;
+    border: none;
+    padding: 6px 20px;
+}
+
+#Fadminlist-container table tbody {
+    font-size: 14px;
+    padding: 6px 20px;
+}
+
+#ALreportBtn {
+    margin-left: 850px;
+    margin-top: 40px;
+    background-color: rgb(182, 146, 95);
+    color: black;
+    font-weight: bold;
+}
+
+#ALreportBtn:hover {
+    margin-left: 850px;
+    outline-color: rgb(182, 146, 95);
+    background-color: black;
+    color: rgb(182, 146, 95);
+}
+
+#AList{
+    color: black;
+    font-weight: bolder;
+}
+
+#ALhr{
+    height: 3px;
+    background-color: rgb(88, 63, 27);
+    border: none;
+}

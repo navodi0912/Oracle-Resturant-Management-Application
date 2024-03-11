@@ -1,0 +1,75 @@
+.allhalls{
+    display: flex;
+}
+.allhallscontainer{
+
+    margin-top: 20px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
+
+.allhallscontainer h1{
+
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.allhallsCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.allhallscontainer button{
+    margin-left: 5px;
+    color: black;
+    background-color: rgb(180, 146, 95);;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    width: 100px;
+}
+
+.allhallscontainer button:hover{
+    
+
+    background-color:  #daa520;
+   
+
+}
+
+.allhallscontainer input{
+
+    width:250px;
+    
+}
+
+.searchhall{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.allhallsCard td{
+
+    margin-left: 30px;
+    word-break: break-all;
+}
+
+.halltable th{
+
+    background-color: rgb(180, 146, 95);;
+    padding-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.halltable td{
+    
+    background-color:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: auto;
+    padding-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}

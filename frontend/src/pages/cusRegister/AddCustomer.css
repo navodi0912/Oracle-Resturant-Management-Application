@@ -1,0 +1,35 @@
+.add-customers {
+    display: flex;
+    background-color: black;
+}
+
+.customermain {
+    height: 110vh;
+    background-image: url(../../assets/bkImg.jpg);
+}
+
+.AddCustomerForm {
+    position: absolute;
+
+    background-color: black;
+    /* margin: 50px 320px 50px 320px; */
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: rgb(182, 146, 95);
+}
+
+label {
+    margin-left: 5px;
+} 
+
+.form-control{
+    background-color: #2f2f2f;
+    color: azure;
+    margin: 10px 10px 10px 10px;
+}

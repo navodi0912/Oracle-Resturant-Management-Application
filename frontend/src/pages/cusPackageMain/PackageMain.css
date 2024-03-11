@@ -1,0 +1,65 @@
+
+.packagemain{
+
+    background-color: #000;
+   
+}
+
+.packagemain{
+    background-color: black;
+    color: #fff;
+    grid-column: 1/-1;
+}
+
+
+.packagemaincard {
+
+    width: 30rem;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 37px;
+    margin-bottom: 15px;
+    margin-top: 90px;
+
+}
+
+.packagemaincard h4{
+
+    font-size: 35px;
+    
+}
+
+
+.packagemaincard-body p{
+
+    margin-top: 40px;
+}
+ .row {
+
+    padding: 30px;
+
+ }
+
+ .packagemaincard-body button{
+
+    background-color: #fff;
+ }
+
+ .packageimg img{
+
+    width:430px;
+    height: 330px;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 20px;
+    object-fit: cover;
+   
+ }
+
+ .list-group-flushpackage{
+    width:400px;
+    margin-left: 14px;
+    
+    
+    
+ }

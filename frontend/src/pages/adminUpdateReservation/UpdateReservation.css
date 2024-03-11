@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.reservationupdate{
+
+    display: flex;
+}
+.reservationupdatebg{
+    background-image: url('../../assets/bkImg.jpg');
+    height: 110vh;
+    flex:1;
+}
+
+.addreservationupdateheader{
+
+    
+    color:white;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+}
+
+.addreservationupdateheader h1{
+
+    font-weight:400;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+}
+
+
+.addreservationupdateheader h3{
+
+    text-align: center;
+}
+
+.reservationupdatecontainer form{
+
+    margin-left: 250px;
+    
+}
+
+.selectreservationupdateform{
+
+    margin-left:70px;
+    margin-top: 60px;
+}
+
+.selectreservationupdateform label{
+
+    font-size: 20px;
+    color:white;
+}
+
+.selectreservationupdateform input{
+
+    width:600px;
+    height: 42px;
+    border-radius: 10px;
+}
+
+.addreservationupdatebutton button{
+
+    margin-left: 200px;
+    margin-top:30px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(180, 146, 95);;
+    color: black;
+    border: none;
+    width: 150px;
+}
+
+.addreservationupdatebutton button:hover{
+
+    background-color:#daa520;
+}

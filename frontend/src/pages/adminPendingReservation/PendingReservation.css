@@ -1,0 +1,88 @@
+.allpending{
+    display: flex;
+}
+.allpendingcontainer{
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    flex: 1;
+}
+
+.allpendingsCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.allpendingreservationscontainer button{
+    margin-left: 15px;
+    color: black;
+    background-color: rgb(180, 146, 95);;
+    border-radius: 5px;
+    border: none;
+    height: 38px;
+    width: 150px;
+    font-size: 18px;
+
+}
+
+.allpendingreservationsCard table{
+
+    margin-left: 80px;
+    width: 1400px;
+
+    
+
+}
+
+
+.allpendingreservationscontainer input{
+
+    width:250px;
+    
+}
+
+.allpendingreservationscontainer h1{
+   text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+    
+}
+
+
+.row allpendingreservationssearch{
+
+    margin-left:50px;
+
+}
+
+.pendingtable th{
+
+    background-color: rgb(180, 146, 95);;
+    padding-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+
+}
+
+.pendingtable td{
+    
+    background-color:  rgba(240, 248, 255, 0.607);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    word-break:keep-all;
+}
+
+/*.allpendingreservationscontainer button{
+
+}*/
+
+#allapprovedreservation{
+
+    margin-left: 80px;
+    width: 220px;
+    height:35px;
+}

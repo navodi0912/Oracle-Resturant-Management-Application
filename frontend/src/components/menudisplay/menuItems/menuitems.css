@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menuitemDisplay{
+    margin: 70px auto 0px auto;
+    width: 80%;
+    height: auto;
+    /* background-color: blue; */
+}
+
+.item_selector{
+    /* background-color: red; */
+    height: 10vh;
+    position: relative;
+}
+
+.slider{
+    position: relative;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.toggle_btn{
+    background-color: transparent;
+    color: rgb(182, 146, 95);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(182, 146, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.toggle_btn:hover{
+    filter: drop-shadow(0px 0px 2px rgb(182, 146, 95));
+}
+
+
+.category_container{
+    margin: 0 20px;
+    width: 350px;
+    overflow-x: scroll;
+    /* background-color: green; */
+    display: flex;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.category_container::-webkit-scrollbar {
+    display: none;
+}
+  
+.category_container_sub{
+    width: auto;
+    display: flex;
+    
+}
+
+.categories{
+    margin: 0 20px;
+    background-color: transparent;
+    border: none;
+    color: rgb(182, 146, 95);
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.categories:hover{
+    filter: drop-shadow(0px 0px 2px rgb(182, 146, 95));
+}
+
+.cart_icon{
+    cursor: pointer;
+    padding: 10px 30px;
+    position: absolute;
+    color: rgb(182, 146, 95);
+    right: 10px;
+    top: 5px;
+
+}
+
+.item_container{
+    position: relative;
+    /* background-color: green; */
+    max-height: 600px;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* .no_items_message_con::-webkit-scrollbar {
+    display: none;
+} */
+.no_items_menu_cus{
+    height: 350px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no_items_menu_cus_mssges{
+    text-align: center;
+}
+
+.no_items_menu_cus_mssges h1{
+    color: rgb(182, 146, 95);
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.no_items_menu_cus_mssges p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media(max-width:870px){
+    .cart_icon{
+        top: 50px;
+        left: 60%;
+        transform: translateX(-50%);
+    }
+    
+}

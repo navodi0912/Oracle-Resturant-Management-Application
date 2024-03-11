@@ -1,0 +1,82 @@
+.allpackages{
+    display: flex;
+}
+.allpackagescontainer{
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    flex:1;
+}
+
+.allpackagesCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.allpackagescontainer button{
+    margin-left: 15px;
+    color:black;
+    background-color: rgb(180, 146, 95);;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    width: 150px;
+
+}
+
+.allpackagesCard table{
+
+    margin-left: 80px;
+    width: 1400px;
+
+}
+
+.allpackagesscontainer button:hover{
+    
+
+    background-color:#daa520  ;
+   
+
+}
+
+.allpackagescontainer input{
+
+    width:250px;
+    
+}
+
+.allpackagescontainer h1{
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+
+.row allpackagessearch{
+
+    margin-left:50px;
+
+}
+
+.packagetable th{
+
+    background-color: rgb(180, 146, 95);;
+    padding-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+
+}
+
+.packagetable td{
+    
+    background-color:  rgba(240, 248, 255, 0.607);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    word-break: break-all;
+}
+
+/*#allhallsbutton{
+
+    
+}*/

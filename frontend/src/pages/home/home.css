@@ -1,0 +1,144 @@
+.homepage_main_con{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    overflow: auto;
+    background-image: url(../../assets/bkImg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home_introduction_con{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../../assets/bg_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home_res_name_con{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background-image: url(../../assets/bkImg.jpg);
+    text-align: center;
+    border-top: 8px solid #d1d1d1;
+    border-bottom: 8px solid #d1d1d1;
+    -webkit-box-shadow: 0px 0px 13px 17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 13px 17px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 13px 17px rgba(0,0,0,0.75)
+
+}
+
+.home_res_name_con h1{
+    color: white;
+    font-size: 140px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+    /* animation: blink_white 4000ms ease-in-out infinite; */
+}
+
+.home_res_name_con h2{
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: rgb(182, 146, 95);
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    text-shadow: 2px -4px 4px rgba(0, 0, 0, 0.749);
+    animation: blink_gold 4000ms ease-in-out infinite;
+    /* filter: drop-shadow(0px 0px 2px rgb(182, 146, 95)); */
+}
+
+
+@media(max-width:490px){
+    .home_res_name_con h1{
+        font-size: 90px;
+        top: 40%;
+    }
+    
+    .home_res_name_con h2{
+        font-size: 55px;
+        top: 60%;
+    }
+}
+
+@keyframes blink_white{
+    0%{
+        filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+    }
+    10%{
+        filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+    }
+    22%{
+        filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+    }
+    27%{
+        filter: drop-shadow(0px 0px 3px rgb(255, 255, 255));
+    }
+    33%{
+        filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+    }
+    45%{
+        filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+    }
+    58%{
+        filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+    }
+    67%{
+        filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+    }
+    89%{
+        filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+    }
+    92%{
+        filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+    }
+    100%{
+        filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+    }
+}
+
+@keyframes blink_gold{
+    0%{
+        filter: drop-shadow(0px 0px 2px rgb(182, 146,95));
+    }
+    10%{
+        filter: drop-shadow(0px 0px 7px rgb(182, 146,95));
+    }
+    22%{
+        filter: drop-shadow(0px 0px 5px rgb(182, 146,95));
+    }
+    27%{
+        filter: drop-shadow(0px 0px 3px rgb(182, 146,95));
+    }
+    33%{
+        filter: drop-shadow(0px 0px 7px rgb(182, 146,95));
+    }
+    45%{
+        filter: drop-shadow(0px 0px 2px rgb(182, 146,95));
+    }
+    58%{
+        filter: drop-shadow(0px 0px 7px rgb(182, 146,95));
+    }
+    67%{
+        filter: drop-shadow(0px 0px 2px rgb(182, 146,95));
+    }
+    89%{
+        filter: drop-shadow(0px 0px 2px rgb(182, 146,95));
+    }
+    92%{
+        filter: drop-shadow(0px 0px 7px rgb(182, 146,95));
+    }
+    100%{
+        filter: drop-shadow(0px 0px 2px rgb(182, 146,95));
+    }
+}

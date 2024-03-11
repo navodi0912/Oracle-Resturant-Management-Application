@@ -1,0 +1,104 @@
+.order_bill_main{
+    height:100vh;
+    width: 100%;
+    background-image: url(../../assets/bkImg.jpg);
+}
+.content_con{
+    height: calc(100vh - 90px);
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bill_con{
+    margin: 20px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download_bill_con{
+    width: 90%;
+}
+
+.download_btn_bill{
+    display: flex;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    border: none;
+    margin: 10px 0;
+    float: right;
+    cursor: pointer;
+}
+.download_btn_bill p{
+    margin: 0;
+    font-size: 14px;
+}
+
+table{
+    width: 90%;
+    border: none;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(182, 146, 95);
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    padding: 5px 5px;
+    font-size: 30px;
+}
+
+.bill_table_header{
+    text-align: center;
+}
+
+td{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+  }
+
+tr:not(:first-child) {
+    margin-top: 20px;
+}
+
+.total_amount{
+    font-size: 30px;
+    color: rgb(182, 146, 95);
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+.delivery_btn_bill{
+    background-color: rgb(182, 146, 95);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.deliver_details_con.hide{
+    display: none;
+}
+
+@media(max-width: 500px){
+    .total_amount{
+        font-size: 24px;
+    }
+}
+  

@@ -1,0 +1,17 @@
+.admin_view_orders{
+    display: flex;
+}
+.admin_view_orders_content_con{
+    flex: 1;
+    height: 100vh;
+}
+.middle_order_con{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+    align-items: center;
+    /* background-color: green; */
+}

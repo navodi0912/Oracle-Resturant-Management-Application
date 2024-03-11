@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.hallupdate{
+
+    display: flex;
+
+}
+
+.hallupdatebg{
+    background-image: url('../../assets/bkImg.jpg');
+    height: 110vh;
+    flex:1;
+}
+
+.addhallupdateheader{
+
+    
+    color:white;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+}
+
+.addhallupdateheader h1{
+
+    font-weight:400;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+}
+
+
+.addhallupdateheader h3{
+
+    text-align: center;
+}
+
+.hallupdatecontainer form{
+
+    margin-left: 250px;
+    
+}
+
+.selecthallupdateform{
+
+    margin-left:70px;
+    margin-top: 60px;
+}
+
+.selecthallupdateform label{
+
+    font-size: 20px;
+    color:white;
+}
+
+.selecthallupdateform input{
+
+    width:600px;
+    height: 42px;
+    border-radius: 10px;
+}
+
+.addhallupdatebutton button{
+
+    margin-left: 200px;
+    margin-top:30px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(180, 146, 95);;
+    color:black;
+    border: none;
+    width: 120px;
+
+}
+
+.addhallupdatebutton button:hover{
+
+    background-color:#daa520;
+}

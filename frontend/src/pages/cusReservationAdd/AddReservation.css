@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.bg{
+    background-image: url('./assets/ReservationImg.jpg');
+    background-size: cover;
+    height: 125vh;
+    
+}
+
+.addreservationheader{
+
+    
+    color:white;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+}
+
+.addreservationheader h1{
+
+    font-weight:400;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.packageoptions{
+
+    height:40px;
+    width:400px;
+    border-radius: 8px;
+    color:#5d5858;
+}
+
+.halloptions{
+
+    height:40px;
+    width:400px;
+    border-radius: 8px;
+    color:#5d5858;
+}
+
+.reservationcontainer form{
+
+    margin-left: 300px;
+    
+}
+
+.reservationsform{
+
+    margin-left:70px;
+    margin-top: 60px;
+}
+
+.reservationsform label{
+
+    font-size: 18px;
+    color: red;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: italic;
+   
+    
+}
+
+.reservationsform input{
+
+    width:500px;
+    height: 42px;
+}
+
+.addextra button{
+
+    margin-left: 245px;
+    background-color: #b8860b;
+}
+.addreservation button{
+
+    margin-top: 40px;
+    background-color: #b8860b;
+    
+}
+
+
+.formgroup label{
+    color: aliceblue;
+}
+
+.reservationsform button{
+
+    margin-left: 20px;
+    background-color: azure;
+    
+}
+
+.reservationsform button:hover{
+
+    background-color: #daa520;
+}

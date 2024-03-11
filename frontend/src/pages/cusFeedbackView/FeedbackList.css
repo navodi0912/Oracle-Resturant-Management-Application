@@ -1,0 +1,86 @@
+#FLbody {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url(../../assets/bkImg.jpg);
+  }
+
+#FsearchBar {
+    margin-left: 850px;
+    border-color: white;
+    background-color: bisque;
+}
+
+#FsearchBtn {
+    margin-right: 12px;
+    color: black;
+    background-color:rgb(182, 146, 95) ;
+    border-color: white;
+    font-weight: bold;
+}
+
+#FsearchBtn:hover{
+    color:rgb(182, 146, 95) ;
+    background-color:black;
+}
+
+#feedbacklist-container table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border-color:black ;
+    background-color: bisque;
+    
+}
+
+#feedbacklist-container table thead {
+    font-weight: 700;
+   
+}
+
+#feedbacklist-container table thead td {
+    background-color: rgb(182, 146, 95);
+    color: white;
+    border: none;
+    padding: 6px 20px;
+}
+
+#feedbacklist-container table tbody {
+    font-size: 14px;
+    color: black;
+    padding: 6px 20px;
+}
+
+#FLupdateIcon {
+    color: black;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#FLupdateIcon:hover {
+    color: rgb(60, 48, 233);
+    transition: 0.4s;
+}
+
+#FLDeleteIcon {
+    color:black;
+    cursor: pointer;
+}
+
+#FLDeleteIcon:hover {
+    color: rgb(182, 25, 25);
+    transition: 0.4s;
+}
+
+
+#Ffblist{
+    color: white;
+    font-weight: bolder;
+}
+
+#FLhr{
+    height: 3px;
+        background-color: white;
+        border: none;
+}

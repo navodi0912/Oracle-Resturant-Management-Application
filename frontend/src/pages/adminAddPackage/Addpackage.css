@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.packagebg{
+    background-image: url('../../assets/bkImg.jpg');
+    height: 100vh;
+    flex: 1;
+}
+
+.addpackageheader{
+
+    
+    color:white;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+}
+
+.addpackageheader h1{
+
+    font-weight:400;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+.packagecontainer form{
+
+    margin-left: 250px;
+    margin-top: 40px;
+    
+}
+
+.selectpackageform{
+
+    margin-left:70px;
+   
+}
+
+.selectpackageform label{
+
+    font-size: 18px;
+    color: red;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: italic;
+    margin-left: 20px;
+
+}
+
+.selectpackageform input{
+
+    width:600px;
+    height: 42px;
+}
+
+.addpackagebutton button{
+
+    margin-right: 750px;
+    margin-top:30px;
+    background-color:rgb(180, 146, 95);;
+}
+
+.addpackagebutton button:hover{
+
+    background-color:#daa520;
+}
+
+
+.selectpackageform h5{
+    color: aliceblue;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.packagemain{
+    display: flex;
+}

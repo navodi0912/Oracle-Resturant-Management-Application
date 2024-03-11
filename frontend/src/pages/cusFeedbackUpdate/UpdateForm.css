@@ -1,0 +1,114 @@
+
+#FLUbody {
+    /*background: linear-gradient(to rigt, #3a7bd5, #3a6073);*/
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+
+.FLUpopup {
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 500px;
+    padding: 20px 30px;
+    background-color: black;
+    box-shadow: 2px 2px 7px 7px rgba(182, 175, 175, 0.15);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+}
+
+.FLUpopup.active {
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+}
+.FLUpopup .FLUclose-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.FLUpopup .form .FLUform-element {
+    margin: 15px 0px;
+}
+
+.FLUpopup .form .FLUform-element label {
+    font-size: 14px;
+    color: white;
+}
+
+.FLUpopup .form .FLUform-element select {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-color: aqua;
+    border-radius: 5px;
+}
+
+
+.FLUpopup .form .FLUform-element input[type="text"] {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(182, 146, 95) ;
+    border-radius: 5px;
+}
+
+.FLUpopup .form .FLUform-element button {
+    width: 100%;
+    height: 40px;
+    border-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(182, 146, 95) ;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.FLUpopup .form .FLUform-element button:hover {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: rgb(182, 146, 95);
+    background-color:black;
+    color:rgb(182, 146, 95) ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#FLUpdate{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 0px 20px;
+    padding: 10px;
+    font-size: 30px;
+}

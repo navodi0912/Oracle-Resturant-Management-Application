@@ -1,0 +1,31 @@
+.add-employee {
+    display: flex;
+}
+
+.employees{
+    flex: 1;
+    height: 100vh;
+    overflow: auto;
+}
+
+.AddEmployeeForm {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    left: 25%;
+    /* right: 50%; */
+    top: 2%;
+    margin: 50px 5px;
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+.form-control{
+    margin: 10px 10px 10px 10px;
+}

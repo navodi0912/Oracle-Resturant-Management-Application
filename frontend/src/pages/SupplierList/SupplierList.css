@@ -1,0 +1,99 @@
+#supplier-list {
+    display: flex;
+}
+
+.supplies{
+    flex: 1;
+    height: 100vh;
+    overflow: auto;
+    
+}
+
+
+#addSupplierBtn {
+    margin-left: 10px;
+    background-color: rgb(182, 146, 95);
+    color: white;
+}
+
+#addSupplierBtn:hover {
+    margin-left: 10px;
+    outline-color: rgb(182, 146, 95);
+    background-color: black;
+    color: rgb(182, 146, 95);
+}
+
+
+#searchBar {
+    margin-left: 850px;
+}
+
+#searchBtn {
+    margin-right: 12px;
+}
+
+#supplierlist-container #supplier-table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#supplierlist-container #supplier-table #thead {
+    font-weight: 700;
+}
+
+#supplierlist-container #supplier-table #thead #thead-data {
+    background-color: #454545;
+    color: white;
+    border: none;
+    padding: 6px 20px;
+}
+
+#supplierlist-container #supplier-table #tbody #tbody-data {
+    font-size: 14px;
+    padding: 6px 20px;
+    color: #454545;
+}
+
+#select {
+        width: 100%;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+      }
+
+
+#editIcon {
+    color: #454545;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#editIcon:hover {
+    color: rgb(0, 179, 255);
+    transition: 0.4s;
+}
+
+#trashIcon {
+    color: #454545;
+    cursor: pointer;
+}
+
+#trashIcon:hover {
+    color: rgb(222, 71, 71);
+    transition: 0.4s;
+}
+
+#reportBtn {
+    margin-left: 10px;
+    background-color: rgb(182, 146, 95);
+    color: white;
+}
+
+#reportBtn:hover {
+    margin-left: 10px;
+    outline-color: rgb(182, 146, 95);
+    background-color: black;
+    color: rgb(182, 146, 95);
+}

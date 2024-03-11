@@ -1,0 +1,89 @@
+.mobileNavBar{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: transparent;
+    height: 90px;
+}
+nav.header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+
+.logoImage{
+    margin-left: 20px;
+    height: 75px;
+}
+
+.menu_icon{
+    margin: 0 20px;
+    color: white;
+}
+
+.pages_drawer{
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.93);
+    border-radius: 0 15px 15px 0;
+    transition: 300ms;
+}
+
+.pages_drawer.active{
+    top: 0;
+    left: 0;
+    transition: 300ms;
+}
+
+ul.navPagesMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 15px 15px 0;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+.navPagesMobile li{
+    list-style-type: none;
+    margin: 0 30px;
+}
+
+.navPagesMobile li:hover a{
+    color: rgb(182, 146, 95);
+}
+
+.navPagesMobile li a{
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.navPagesMobile .navPage.active a{
+    color: rgb(182, 146, 95);
+    font-weight: 500;
+}
+
+@media (min-width: 881px) {
+    .mobileNavBar{
+        display: none;
+    }
+  }
+  

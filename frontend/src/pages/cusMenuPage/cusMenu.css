@@ -1,0 +1,168 @@
+/*
+fonts used:
+- josefin sans --> font-family: 'Josefin Sans', sans-serif;
+- great vibe --> font-family: 'Great Vibes', cursive;
+- poppins --> font-family: 'Poppins', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Set the width and height of the scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+  }
+  
+/* Set the background color of the scrollbar */
+::-webkit-scrollbar-track {
+    background-color: #2b2b2b;
+  }
+  
+/* Set the color and shape of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 4px;
+  }
+  
+/* Set the color of the scrollbar thumb on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  
+
+.menuMain{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* background-image: url(assets/bkImg.jpg); */
+    background-image: url(../../assets/bkImg.jpg);
+}
+
+.introduction{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(assets/bg_3.jpg); */
+    background-image: url(../../assets/bg_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.introduction::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.333);
+}
+
+.intro_topic_con{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    text-align: center;
+}
+
+.introTopic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.info_col{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #000000;
+}
+
+.individual_info{
+    overflow: hidden;
+    display: flex;
+    width: 25%;
+    height: 75%;
+    margin: 20px 0;
+}
+
+.info_icon{
+    margin: 0 10px;
+    color: rgb(182, 146, 95);
+}
+
+.info_topic{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.info_para{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #808080;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.learn_more{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(182, 146, 95);
+    padding: 5px;
+    border-radius: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    transition: 300ms;
+}
+
+.learn_more:hover{
+    background-color: rgb(255, 149, 0);
+    box-shadow: 2px 2px 10px 2px rgb(255, 149, 0), -2px -2px 10px 2px rgb(255, 149, 0);
+    transform: scale(1.02);
+}
+
+
+@media(max-width: 670px){
+    .info_col{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .individual_info{
+        
+        overflow: hidden;
+        display: flex;
+        width: 80%;
+        height: 75%;
+        margin: 20px 0;
+    }
+    .info_text{
+        text-align: center;
+    }
+   
+}
+
+
